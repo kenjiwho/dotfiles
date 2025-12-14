@@ -127,7 +127,7 @@
     "format-off": "󰂲 Off",
     "tooltip-format": "{controller_alias:<20.20} {controller_address} (host)\n{device_enumerate}",
     "tooltip-format-connected": "{controller_alias:<20.20} {controller_address} (host)\n{device_enumerate}",
-    "tooltip-format-enumerate-connected": "{device_alias:<20.20} {device_address}",
+    "tooltip-format-enumerate-connected": "{device_alias:<20.20} {device_address} (󰁹 {device_battery_percentage}%)",
   },
   "temperature": {
     "format": "{icon} {temperatureC}°C",
