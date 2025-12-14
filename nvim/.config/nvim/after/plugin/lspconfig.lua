@@ -5,5 +5,5 @@ vim.diagnostic.config({
     underline = true,
 })
 
--- -- turn on inlay hints
--- vim.lsp.inlay_hint.enable()
+-- turn on inlay hints
+vim.lsp.inlay_hint.enable()
