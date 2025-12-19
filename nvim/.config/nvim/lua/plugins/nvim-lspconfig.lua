@@ -8,7 +8,7 @@ return {
         vim.lsp.enable("bashls") -- bash
         vim.lsp.enable("gopls") -- go
         vim.lsp.enable("zls") -- zig
-        vim.lsp.enable("pyright") -- python
+        vim.lsp.enable("ty") -- python
         vim.lsp.enable("clangd") -- c
         vim.lsp.enable("svelte") -- svelte
         vim.lsp.enable("ts_ls") -- typescript
