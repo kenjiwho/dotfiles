@@ -39,3 +39,6 @@ end)
 vim.keymap.set("n", "[d", function()
     vim.diagnostic.jump({ count = -1, float = true })
 end)
+
+-- build/run programs from within nvim
+vim.keymap.set("n", "<leader>op", ":make<CR>")
