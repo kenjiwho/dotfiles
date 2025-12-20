@@ -14,6 +14,7 @@ return {
         vim.lsp.enable("ts_ls") -- typescript
         vim.lsp.enable("expert") -- elixir
         vim.lsp.enable("gleam") -- gleam
+        vim.lsp.enable("glsl_analyzer") -- glsl
     end,
     keys = {
         { "<leader>rn", vim.lsp.buf.rename, desc = "LSP Rename" },

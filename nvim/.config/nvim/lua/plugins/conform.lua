@@ -24,6 +24,7 @@ return {
             rust = { "rustfmt" },
             elixir = { "mix" },
             gleam = { "gleam" },
+            glsl = { "glsl_analyzer" },
         },
         formatters = {
             stylua = {
@@ -31,6 +32,10 @@ return {
             },
             ["tex-fmt"] = {
                 prepend_args = { "-n" },
+            },
+            glsl_analyzer = {
+                command = "glsl_analyzer",
+                args = { "--format", "$FILENAME" },
             },
         },
     },
