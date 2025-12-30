@@ -39,7 +39,7 @@ export LESS="-R -F -X"
 # set aliases
 alias update-package-list="pacman -Qqne > $HOME/mhome/coding/bash/install_scripts/arch_linux/laptop/packages/pacman;\
     pacman -Qqme > $HOME/mhome/coding/bash/install_scripts/arch_linux/laptop/packages/aur"
-alias chafa="TERM=xterm-ghostty chafa"
+alias chafa="TERM=xterm-kitty chafa"
 alias update="\
     echo '\n==============================';\
     echo 'Updating pacman packages...';\
