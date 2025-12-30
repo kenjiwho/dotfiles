@@ -130,7 +130,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // terminal, app launcher, screen locker, clipboard
-    Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "ghostty"; }
+    Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn-sh "pkill fuzzel || fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     Mod+V hotkey-overlay-title="Open Clipboard Manager: clipse" { spawn "kitty" "--class=com.example.clipse" "-e" "clipse"; }
