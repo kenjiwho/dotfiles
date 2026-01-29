@@ -1,0 +1,49 @@
+// Open the Firefox picture-in-picture player as floating by default.
+window-rule {
+    match app-id="zen" title="Picture-in-Picture"
+    open-floating true
+}
+
+// open spotify in its own workspace
+window-rule {
+    match app-id="spotify"
+    open-on-workspace "spotify"
+}
+
+// open clipse clipboard manager floating and set its size
+window-rule {
+    match app-id="com.example.clipse"
+    open-floating true
+    default-column-width { fixed 622; }
+    default-window-height { fixed 652; }
+}
+
+// float bitwarden window
+window-rule {
+    match app-id="zen" title="Bitwarden"
+    open-floating true
+    default-column-width { fixed 622; }
+    default-window-height { fixed 652; }
+}
+
+// float btop window
+window-rule {
+    match title="btop-viewer"
+    open-floating true
+    default-column-width { fixed 1000; }
+    default-window-height { fixed 750; }
+}
+
+// float pavucontrol window
+window-rule {
+    match app-id="org.pulseaudio.pavucontrol"
+    open-floating true
+    default-column-width { fixed 800; }
+    default-window-height { fixed 600; }
+}
+
+// enable rounded corners for all windows.
+window-rule {
+    geometry-corner-radius 12
+    clip-to-geometry true
+}

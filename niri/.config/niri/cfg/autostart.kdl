@@ -1,0 +1,7 @@
+// choose random wallpaper
+spawn-at-startup "~/.scripts/random_wallpaper.sh"
+spawn-at-startup "clipse" "-listen"
+
+hotkey-overlay {
+    skip-at-startup
+}

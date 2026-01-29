@@ -1,0 +1,31 @@
+layout {
+    gaps 4
+    center-focused-column "never"
+
+    // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+
+    default-column-width { proportion 1.0; }
+
+    // You can change how the focus ring looks (active border).
+    focus-ring {
+        width 2
+
+        // Color of the ring on the active monitor.
+        active-color "#3355bb"
+        // Only on other minitors.
+        inactive-color "#505050"
+    }
+
+    // Struts shrink the area occupied by windows
+    struts {
+        // left 10
+        // right 10
+        // top 10
+        // bottom 10
+    }
+}
