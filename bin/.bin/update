@@ -1,0 +1,31 @@
+#!/bin/env /usr/bin/bash
+
+echo '=============================='
+echo 'Updating pacman packages...'
+echo '=============================='
+sudo pacman -Syu
+echo '=============================='
+echo 'Updating AUR packages...'
+echo '=============================='
+paru -Syu
+echo '=============================='
+echo 'Updating uv tools...'
+echo '=============================='
+uv tool upgrade --all
+echo '=============================='
+echo 'Updating cargo packages...'
+echo '=============================='
+cargo install-update -a
+echo '=============================='
+echo 'Updating flatpak packages...'
+echo '=============================='
+flatpak update -y
+echo '=============================='
+echo 'Updating go packages...'
+echo '=============================='
+gup update
+echo '=============================='
+echo 'Updating rust toolchain'
+echo '=============================='
+rustup self update
+rustup update

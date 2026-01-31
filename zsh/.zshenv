@@ -6,7 +6,7 @@ export PATH="$PATH:$HOME/.zvm/bin"
 export PATH="$PATH:$ZVM_INSTALL/"
 
 # add binary directories to path
-export PATH="$HOME/.local/bin:$HOME/go/bin:$PATH"
+export PATH="$HOME/.bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
 
 # set some env variables
 export EDITOR=nvim
