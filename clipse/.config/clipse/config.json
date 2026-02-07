@@ -4,8 +4,8 @@
     "themeFile": "custom_theme.json",
     "logFile": "clipse.log",
     "tempDir": "tmp_files",
-    "imageDisplay":  {
-        "type": "kitty",
+    "imageDisplay": {
+        "type": "sixel",
         "scaleX": 22,
         "scaleY": 22,
         "heightCut": 13

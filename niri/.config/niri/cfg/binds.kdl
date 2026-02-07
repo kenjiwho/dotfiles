@@ -2,10 +2,10 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // terminal, app launcher, screen locker, clipboard
-    Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn-sh "pkill fuzzel || fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
-    Mod+V hotkey-overlay-title="Open Clipboard Manager: clipse" { spawn "kitty" "--class=com.example.clipse" "-e" "clipse"; }
+    Mod+V hotkey-overlay-title="Open Clipboard Manager: clipse" { spawn "foot" "--app-id=com.example.clipse" "-e" "clipse"; }
     Mod+Period hotkey-overlay-title="Emoji picker" { spawn "rofimoji"; }
 
     // "-l 1.0" limits the volume to 100%.
