@@ -5,7 +5,7 @@ return {
     lazy = false,
     ---@type snacks.Config
     opts = {
-        image = { enabled = true },
+        image = { enabled = false },
         bigfile = { enabled = true },
         indent = { enabled = true },
         quickfile = { enabled = true },
