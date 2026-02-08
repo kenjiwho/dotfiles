@@ -29,3 +29,7 @@ echo 'Updating rust toolchain'
 echo '=============================='
 rustup self update
 rustup update
+echo '=============================='
+echo 'Updating vcpkg repository'
+echo '=============================='
+git -C $VCPKG_ROOT pull

@@ -25,6 +25,7 @@ return {
             elixir = { "mix" },
             gleam = { "gleam" },
             glsl = { "glsl_analyzer" },
+            cmake = { "cmake_format" },
         },
         formatters = {
             stylua = {

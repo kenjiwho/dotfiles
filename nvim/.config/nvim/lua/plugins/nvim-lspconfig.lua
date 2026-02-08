@@ -15,6 +15,7 @@ return {
         vim.lsp.enable("expert") -- elixir
         vim.lsp.enable("gleam") -- gleam
         vim.lsp.enable("glsl_analyzer") -- glsl
+        vim.lsp.enable("cmake") -- cmake
     end,
     keys = {
         { "<leader>rn", vim.lsp.buf.rename, desc = "LSP Rename" },
