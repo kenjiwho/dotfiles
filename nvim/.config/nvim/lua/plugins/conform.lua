@@ -26,6 +26,7 @@ return {
             gleam = { "gleam" },
             glsl = { "glsl_analyzer" },
             cmake = { "cmake_format" },
+            java = { "clang-format" },
         },
         formatters = {
             stylua = {
