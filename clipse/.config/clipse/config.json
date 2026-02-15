@@ -9,5 +9,13 @@
         "scaleX": 22,
         "scaleY": 22,
         "heightCut": 13
+    },
+    "keyBindings": {
+        "down": "j",
+        "up": "k",
+        "nextPage": "l",
+        "prevPage": "h",
+        "selectDown": "J",
+        "selectUp": "K"
     }
 }
