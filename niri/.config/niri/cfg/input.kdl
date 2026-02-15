@@ -1,7 +1,6 @@
 input {
     keyboard {
         xkb {
-            options "caps:swapescape,altwin:swap_lalt_lwin"
         }
 
         // Enable numlock on startup, omitting this setting disables it.
