@@ -26,8 +26,8 @@ if [[ $TMUX = "" ]]; then
 fi
 
 # set aliases
-alias update-package-list="pacman -Qqne > $HOME/mhome/coding/bash/install_scripts/arch_linux/laptop/packages/pacman;\
-    pacman -Qqme > $HOME/mhome/coding/bash/install_scripts/arch_linux/laptop/packages/aur"
+alias update-package-list="pacman -Qqne > $HOME/mhome/coding/bash/install_scripts/cachyos/packages/pacman;\
+    pacman -Qqme > $HOME/mhome/coding/bash/install_scripts/cachyos/packages/aur"
 alias chafa="TERM=foot chafa"
 
 # make cd command to go to mhome
