@@ -16,6 +16,7 @@ return {
         vim.lsp.enable("gleam") -- gleam
         vim.lsp.enable("glsl_analyzer") -- glsl
         vim.lsp.enable("cmake") -- cmake
+        vim.lsp.enable("ruff") -- python
     end,
     keys = {
         { "<leader>rn", vim.lsp.buf.rename, desc = "LSP Rename" },
