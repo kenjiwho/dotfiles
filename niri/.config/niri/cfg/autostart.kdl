@@ -1,6 +1,15 @@
 // choose random wallpaper
 spawn-at-startup "~/.scripts/random_wallpaper.sh"
+// clipboard history
 spawn-at-startup "clipse" "-listen"
+
+// set dark theme
+spawn-at-startup "gsettings" "set" "org.gnome.desktop.interface gtk-theme" "Adwaita:dark"
+spawn-at-startup "gsettings" "set" "org.gnome.desktop.interface color-scheme" "prefer-dark"
+
+environment {
+    QT_QPA_PLATFORMTHEME "qt6ct"
+}
 
 hotkey-overlay {
     skip-at-startup
