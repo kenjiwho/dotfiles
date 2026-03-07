@@ -9,8 +9,8 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 })
 
 vim.api.nvim_create_autocmd("FileType", {
-    desc = "Better navigation for wrapped lines in TeX and Markdown files",
-    pattern = { "tex", "markdown" },
+    desc = "Better navigation for wrapped lines in TeX, Markdown, and typst files",
+    pattern = { "tex", "markdown", "typst" },
     callback = function()
         vim.schedule(function()
             -- j->gj and k->gk to navigate wrapped lines

@@ -27,6 +27,7 @@ return {
             glsl = { "glsl_analyzer" },
             cmake = { "cmake_format" },
             java = { "clang-format" },
+            typst = { "typstyle" },
         },
         formatters = {
             stylua = {
