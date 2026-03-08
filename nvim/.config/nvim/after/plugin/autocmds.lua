@@ -35,3 +35,24 @@ vim.api.nvim_create_autocmd("User", {
         end
     end,
 })
+
+-- autostart typst preview
+local typst_preview_group = vim.api.nvim_create_augroup("TypstAutoPreview", { clear = true })
+vim.api.nvim_create_autocmd("LspAttach", {
+    group = typst_preview_group,
+    callback = function(args)
+        -- Get the LSP client that just attached
+        local client = vim.lsp.get_client_by_id(args.data.client_id)
+
+        -- Check if the attached client is specifically tinymist
+        if client and client.name == "tinymist" then
+            -- vim.schedule waits for the Neovim event loop to settle before running
+            vim.schedule(function()
+                -- Check if we are actually in a typst buffer to be safe
+                if vim.bo[args.buf].filetype == "typst" then
+                    vim.cmd("TypstPreview")
+                end
+            end)
+        end
+    end,
+})

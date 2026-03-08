@@ -47,3 +47,10 @@ window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
 }
+
+// typst preview should be half column size and not steal focus
+window-rule {
+    match title="Typst Preview"
+    default-column-width { proportion 0.5; }
+    open-focused false
+}

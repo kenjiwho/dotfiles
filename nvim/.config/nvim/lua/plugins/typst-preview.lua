@@ -3,6 +3,6 @@ return {
     ft = "typst",
     version = "1.*",
     opts = {
-        open_cmd = "luakit %s",
+        open_cmd = 'webviewer -t "Typst Preview" %s',
     },
 }
