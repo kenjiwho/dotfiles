@@ -1,13 +1,9 @@
 #!/bin/env /usr/bin/bash
 
 echo '=============================='
-echo 'Updating pacman packages...'
+echo 'Updating pacman and AUR packages...'
 echo '=============================='
-sudo pacman -Syu
-echo '=============================='
-echo 'Updating AUR packages...'
-echo '=============================='
-paru -Syu
+paru
 echo '=============================='
 echo 'Updating uv tools...'
 echo '=============================='
