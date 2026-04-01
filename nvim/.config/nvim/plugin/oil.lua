@@ -1,8 +1,8 @@
 -- file explorer
 
 vim.pack.add({
-    "https://github.com/stevearc/oil.nvim",
     "https://github.com/nvim-mini/mini.icons",
+    "https://github.com/stevearc/oil.nvim",
 })
 
 local oil = require("oil")
