@@ -60,13 +60,13 @@ binds {
     Mod+L     { focus-column-right; }
 
     Mod+Shift+H     { move-column-left; }
-    Mod+Shift+J     { move-window-down-or-to-workspace-down; }
-    Mod+Shift+K     { move-window-up-or-to-workspace-up; }
+    Mod+Shift+J     { move-window-to-workspace-down; }
+    Mod+Shift+K     { move-window-to-workspace-up; }
     Mod+Shift+L     { move-column-right; }
 
     // for moving floating windows across workspaces
-    Mod+Ctrl+K     { move-window-to-workspace-up; }
-    Mod+Ctrl+J     { move-window-to-workspace-down; }
+    Mod+Ctrl+K     { move-window-up; }
+    Mod+Ctrl+J     { move-window-down; }
 
     Mod+Shift+U     { move-workspace-up; }
     Mod+Shift+D     { move-workspace-down; }
