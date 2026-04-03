@@ -26,6 +26,12 @@ window-rule {
     default-window-height { fixed 652; }
 }
 
+// float packet (quick share) window
+window-rule {
+    match title="Packet"
+    open-floating true
+}
+
 // float btop window
 window-rule {
     match title="btop-viewer"
