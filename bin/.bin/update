@@ -25,4 +25,8 @@ echo 'Updating rust toolchain'
 echo '=============================='
 rustup self update
 rustup update
+echo '=============================='
+echo 'Updating zvm'
+echo '=============================='
+zvm update
 echo 'Your system is up to date!'
