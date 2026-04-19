@@ -1,6 +1,7 @@
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
     match app-id="zen" title="Picture-in-Picture"
+    match title="Picture in picture"
     open-floating true
 }
 
