@@ -18,6 +18,7 @@ vim.lsp.enable("glsl_analyzer") -- glsl
 vim.lsp.enable("cmake") -- cmake
 vim.lsp.enable("ruff") -- python
 vim.lsp.enable("tinymist") -- typst
+vim.lsp.enable("jdtls") -- java
 
 -- keymaps
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
