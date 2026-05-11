@@ -28,5 +28,5 @@ rustup update
 echo '=============================='
 echo 'Updating zvm'
 echo '=============================='
-zvm update
+zvm upgrade
 echo 'Your system is up to date!'
