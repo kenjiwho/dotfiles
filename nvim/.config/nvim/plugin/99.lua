@@ -11,7 +11,7 @@ local cwd = vim.uv.cwd()
 local basename = vim.fs.basename(cwd)
 _99.setup({
     -- provider = _99.Providers.ClaudeCodeProvider,  -- default: OpenCodeProvider
-    provider = _99.Providers.GeminiCLIProvider,
+    -- provider = _99.Providers.GeminiCLIProvider,
     logger = {
         level = _99.DEBUG,
         path = "/tmp/" .. basename .. ".99.debug",
