@@ -29,6 +29,8 @@ fi
 alias update-package-list="pacman -Qqne > $HOME/mhome/coding/bash/install_scripts/cachyos/packages/pacman;\
     pacman -Qqme > $HOME/mhome/coding/bash/install_scripts/cachyos/packages/aur"
 alias chafa="TERM=foot chafa"
+alias pcp="pcopy copy"
+alias ppaste="pcopy paste"
 
 # make cd command to go to mhome
 cd(){ builtin cd "${1-$HOME/mhome}" "${@:2}"; }
@@ -63,3 +65,6 @@ esac
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+PROG=pcopy source ~/.config/pcopy/autocomplete_zsh
+PROG=pcp source ~/.config/pcopy/autocomplete_zsh
+PROG=ppaste source ~/.config/pcopy/autocomplete_zsh
