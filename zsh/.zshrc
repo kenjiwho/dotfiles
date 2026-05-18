@@ -54,6 +54,9 @@ source <(uv generate-shell-completion zsh)
 # disable exit using ctrl-D
 set -o ignoreeof
 
+# add things to PATH
+export PATH="/home/konji/.bun/bin:$PATH" # bun cli
+
 # pnpm
 export PNPM_HOME="/home/konji/.local/share/pnpm"
 case ":$PATH:" in
