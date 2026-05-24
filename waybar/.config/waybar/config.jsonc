@@ -41,12 +41,12 @@
     },
   },
   "custom/weather": {
-    "exec": "~/.config/waybar/scripts/get_weather.sh Leidschendam",
+    "exec": "~/.config/waybar/scripts/get_weather.sh",
     "return-type": "json",
     "format": "{text}",
     "tooltip": true,
     "interval": 3600,
-    "on-click": "~/.config/waybar/scripts/get_weather.sh Leidschendam",
+    "on-click": "~/.config/waybar/scripts/get_weather.sh",
   },
   "niri/workspaces": {
     "format": "{icon}",
