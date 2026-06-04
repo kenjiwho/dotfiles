@@ -1,0 +1,9 @@
+animations {
+    workspace-switch {
+        off
+    }
+
+    horizontal-view-movement {
+        off
+    }
+}
