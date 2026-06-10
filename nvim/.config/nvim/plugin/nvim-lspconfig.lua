@@ -32,6 +32,7 @@ vim.lsp.enable("zls") -- zig
 vim.lsp.enable("ty") -- python
 vim.lsp.enable("clangd") -- c
 vim.lsp.enable("svelte") -- svelte
+vim.lsp.enable("ols") -- odin
 -- vim.lsp.enable("ts_ls") -- typescript
 vim.lsp.enable("expert") -- elixir
 vim.lsp.enable("gleam") -- gleam

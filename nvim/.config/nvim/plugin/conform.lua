@@ -30,6 +30,7 @@ require("conform").setup({
         java = { "clang-format" },
         typst = { "typstyle" },
         vue = { "oxfmt" },
+        odin = { "odinfmt" },
     },
     formatters = {
         stylua = {
