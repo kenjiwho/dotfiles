@@ -31,6 +31,7 @@ require("conform").setup({
         typst = { "typstyle" },
         vue = { "oxfmt" },
         odin = { "odinfmt" },
+        qml = { "qmlformat" },
     },
     formatters = {
         stylua = {
