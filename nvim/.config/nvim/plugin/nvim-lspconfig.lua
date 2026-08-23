@@ -23,6 +23,8 @@ vim.lsp.config("vtsls", {
     filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue" },
 })
 
+vim.lsp.config("qmlls", { cmd = { "qmlls6" } })
+
 -- LSPs
 vim.lsp.enable("rust_analyzer") -- rust
 vim.lsp.enable("lua_ls") -- lua
@@ -42,6 +44,7 @@ vim.lsp.enable("ruff") -- python
 vim.lsp.enable("tinymist") -- typst
 vim.lsp.enable("jdtls") -- java
 vim.lsp.enable({ "vue_ls", "vtsls" }) -- vue
+vim.lsp.enable("qmlls") -- qml
 
 -- keymaps
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
