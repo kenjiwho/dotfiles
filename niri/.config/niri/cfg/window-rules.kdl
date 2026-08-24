@@ -61,3 +61,7 @@ window-rule {
     default-column-width { proportion 0.5; }
     open-focused false
 }
+
+window-rule {
+    geometry-corner-radius 0
+}
